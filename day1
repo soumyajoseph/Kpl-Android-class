@@ -1,0 +1,37 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<TextView
+    android:text="Happy Birthday HAI!"
+    android:background="#00FFFF"
+    android:layout_width="300dp"
+     android:layout_margin="10dp"
+    android:layout_height="300dp" />
+<TextView
+    android:text="Happy Birthday!"
+    android:background="#00FF"
+    android:layout_width="300dp"
+    android:layout_margin="10dp"
+    android:padding="50dp"
+    android:layout_height="300dp" />
+    <TextView
+    android:text="Happy Birthday!"
+    android:background="#00FF00"
+    android:layout_width="300dp"
+        android:layout_margin="10dp"
+    android:layout_height="300dp" />
+    <TextView
+    android:text="Happy Birthday!"
+    android:background="#009F09"
+    android:layout_width="300dp"
+    android:layout_height="300dp" />
+    
+     <TextView
+    android:text="Happy Birthday!"
+    android:background="#089009"
+    android:layout_width="150dp"
+    android:layout_height="75dp" />
+    
+    </LinearLayout>
