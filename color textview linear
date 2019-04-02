@@ -1,0 +1,37 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    >
+
+	<TextView
+ 	   android:text="Mangeta"
+ 	   android:layout_width="match_parent"
+ 	   android:layout_height="match_parent"
+ 	   android:background="#FF00FF"
+       android:layout_weight="6" 
+       
+    />
+
+	<TextView
+  	  	android:text="Yellow"
+   	 	android:layout_width="match_parent"
+   	 	android:layout_height="match_parent"
+    	android:background="#FFFF00"
+        android:layout_weight="1" 
+         
+    />
+    
+    <TextView
+  	  	android:text="Cyan"
+   	 	android:layout_width="match_parent"
+   	 	android:layout_height="match_parent"
+    	android:background="#00FFFF"
+        android:layout_weight="1" 
+        
+    />
+    
+ 
+    
+</LinearLayout>
