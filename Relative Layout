@@ -1,0 +1,43 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+	<ImageView
+ 	    android:src="@drawable/ocean"
+ 	   android:layout_width="wrap_content"
+ 	   android:layout_height="wrap_content"
+         android:scaleType="centerCrop"
+        android:layout_weight="5"
+        android:id="@+id/image"
+ 	   
+       
+    />
+
+	<TextView
+  	  	android:text="App Developers"
+   	 	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+    	android:background="#88BBFF"
+        android:textSize="46sp"
+        android:id="@+id/title"
+        android:layout_above="@id/subtitle"
+         
+    />
+    
+    <TextView
+  	  	android:text="Can Work anywhere!"
+   	 	android:layout_width="match_parent"
+   	 	android:layout_height="wrap_content"
+    	android:background="#88BBFF"
+        android:textSize="33sp"
+        android:id="@+id/subtitle"
+        android:layout_alignParentBottom="true"
+        
+    />
+    
+ 
+    
+</RelativeLayout>
